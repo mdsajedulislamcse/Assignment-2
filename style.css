@@ -1,0 +1,280 @@
+/* Google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Playfair+Display&family=Poppins&family=Roboto:wght@400;900&display=swap');
+
+/*...Body...*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/* Header */
+.page-title h1 {
+    margin-left: 100px;
+    margin-top: 80px;
+    color: rgb(255, 41, 148);
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Start influence style */
+.start-influencer {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.influencer-details {
+    width: 750px;
+    height: 450px;
+}
+.influencer-title {
+    font-size: 3.2em;
+}
+.influencer-description {
+    font-size: 1.1em;
+    text-align: justify;
+    margin-right: 120px;
+}
+.camera img {
+    width: 450px;
+}
+.camera {
+    width: 700px;
+    height: 450px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.book-link {
+    text-decoration: none;
+    background-color: rgb(255, 0, 125);
+    padding: 10px 15px;
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 50px;
+}
+.fa-angle-double-right {
+    margin-left: 10px;
+}
+/*... End Influence style... */
+
+/* Start Logo areas style */
+.logo-container {
+    margin-top: 70px;
+}
+hr {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.logo-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logos img {
+    width: 70px;
+    padding: 30px;
+}
+/*...End logo areas style...*/
+
+/* Start collection style */
+.collection-container {
+    margin-top: 100px;
+}
+.collection-title h3 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 70px;
+}
+.collections {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.collection {
+    padding: 30px 30px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 20px rgb(146, 139, 139); 
+}
+.product-name {
+    font-size: 1.5em;
+}
+.rating .fa-star {
+    color: goldenrod;
+}
+.fa-star-half-alt {
+    color: goldenrod;
+}
+
+/* Collection style end */
+
+/* See more start */
+.see-more {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+    margin-top: 30px;
+}
+.see-more a{
+    text-decoration: none;
+    background-color: rgb(255, 0, 125);
+    color: white;
+    padding: 8px 15px;
+    font-size: 1.2em;
+    border-radius: 30px;
+}
+.see-more button {
+    border: none;
+    color: white;
+    font-size: 1.1em;
+    background: rgb(255, 0, 125);
+}
+/*...See more end...*/
+
+/* lens container start */
+.lense-container {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+}
+.lenses {
+    display: flex;
+}
+.lenses .lense img {
+    width: 430px;
+}
+.lense {
+    width: 45%;
+    box-shadow: 5px 10px 20px rgb(121, 117, 117);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lense-title {
+    width: 50%;
+    height: 350px;
+    margin-left: 120px;
+    text-align: justify;
+}
+.lense-title h4 {
+    font-size: 2.2em;
+    width: 100%;
+}
+.lense-title a {
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px 15px;
+    border-radius: 50px;
+    color: white;
+    background-color: rgb(255, 0, 125);
+}
+.lense-title button {
+    border: none;
+    color: white;
+    font-size: 1.1em;
+    background-color: rgb(255, 0, 125);
+}
+/* End lense style */
+
+/* Footer start */
+footer {
+    background-color: rgb(26, 26, 70);
+}
+.footer-area {
+    color: white;
+    padding: 20px 0px;
+    margin-top: 100px;
+    text-align: center;
+}
+.footer-area .footer-title {
+    font-size: 2.2em;
+    margin-bottom: 0;
+}
+ .footer-area .copy-right {
+     margin-top: 10px;
+     margin-bottom: 0;
+ }
+ .footer-area .all-right {
+     margin-top: 10px;
+ }
+.media-icon .fa-instagram,
+.fa-twitter,
+.fa-google-plus-square,
+.fa-youtube {
+    font-size: 1.6em;
+    color: #ffa500;
+    padding: 10px;
+}
+/* Footer End */
+
+/* Media query for mobile */
+@media only screen and (max-width:688px) {
+    .page-title h1 {
+        width: 100%;
+        margin-bottom: 0;
+        position: relative;
+        right: 36px;
+    }
+    .influencer-container {
+        width: 100%;
+    }
+    .start-influencer {
+        flex-direction: column;
+        width: 100%;
+        position: relative;
+        margin-top: 0;
+    }
+    .influencer-details {
+        width: 100%;
+        margin-top: 550px;
+    }
+    .influencer-title {
+        position: relative;
+        right: 70px;
+        margin-top: 0;
+    }
+    .influencer-description {
+        position: relative;
+        right: 35px;
+    }
+    .camera {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 100px;
+        position: absolute;
+        right: 45px;
+    }
+    .camera img {
+        width: 350px;
+    }
+    .logo-container {
+        margin-top: 150px;
+    }
+    .logo-area {
+        flex-direction: column;
+   }
+   .collections {
+       grid-template-columns: repeat(1, 1fr);
+       position: relative;
+       right: 50px;
+   }
+   .lenses {
+       flex-direction: column;
+       width: 100%;
+   }
+   .lense {
+       width: 100%;
+       position: relative;
+       margin-top: 600px;
+   }
+   .lense-title {
+       width: 300px;
+       position: absolute;
+       right: 80px;
+   }
+}
+/* ............End............. */
